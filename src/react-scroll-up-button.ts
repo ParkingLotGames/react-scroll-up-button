@@ -3,7 +3,7 @@ import TweenFunctions from 'tween-functions';
 import PropTypes from 'prop-types';
 import detectPassiveEvents from 'detect-passive-events';
 
-class ScrollUpButton extends React.Component {
+class ScrollUpButton: React.FC extends React.Component {
   constructor(props) {
     super(props)
     this.state = { ToggleScrollUp: '' };
